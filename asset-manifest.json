@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Creative-Odyssey/static/css/main.78029041.css",
+    "main.js": "/Creative-Odyssey/static/js/main.01567892.js",
+    "static/js/787.0dba7cac.chunk.js": "/Creative-Odyssey/static/js/787.0dba7cac.chunk.js",
+    "static/media/Aboutme.png": "/Creative-Odyssey/static/media/Aboutme.dc3f1a9118c5a80ff9eb.png",
+    "static/media/Travelworld.png": "/Creative-Odyssey/static/media/Travelworld.c18225adea708a8356ac.png",
+    "static/media/Photopedia.png": "/Creative-Odyssey/static/media/Photopedia.066c391ae68dfcf72ce2.png",
+    "static/media/weathercheck.png": "/Creative-Odyssey/static/media/weathercheck.69ab6287c70c00ccb0e5.png",
+    "static/media/Carshub.png": "/Creative-Odyssey/static/media/Carshub.73d997b61ce3deb507f3.png",
+    "static/media/Spotify.png": "/Creative-Odyssey/static/media/Spotify.4936c90677c601938001.png",
+    "static/media/EveryThing.png": "/Creative-Odyssey/static/media/EveryThing.241523e9be8f4ec6876a.png",
+    "static/media/Flipkart.png": "/Creative-Odyssey/static/media/Flipkart.573d767aefdf3a3025a2.png",
+    "static/media/syedayazrahman.pdf": "/Creative-Odyssey/static/media/syedayazrahman.39f582baaa35b40b7bf0.pdf",
+    "static/media/Me.png": "/Creative-Odyssey/static/media/Me.497a1e89083f5a4fc9a5.png",
+    "static/media/passwordgenerator.png": "/Creative-Odyssey/static/media/passwordgenerator.c9b3fc3ed16ea4861376.png",
+    "static/media/jslog.png": "/Creative-Odyssey/static/media/jslog.d7e67bfbe043ab9a555a.png",
+    "static/media/bootsrap5logo.png": "/Creative-Odyssey/static/media/bootsrap5logo.32c248432e2b86298964.png",
+    "static/media/csslogo.png": "/Creative-Odyssey/static/media/csslogo.8a9cb64261d07da57f4f.png",
+    "static/media/Gotext.jpg": "/Creative-Odyssey/static/media/Gotext.bdf2671bda20e3b97d27.jpg",
+    "static/media/bmi.png": "/Creative-Odyssey/static/media/bmi.c23409e96726b6177385.png",
+    "static/media/logo.svg": "/Creative-Odyssey/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Creative-Odyssey/index.html",
+    "main.78029041.css.map": "/Creative-Odyssey/static/css/main.78029041.css.map",
+    "main.01567892.js.map": "/Creative-Odyssey/static/js/main.01567892.js.map",
+    "787.0dba7cac.chunk.js.map": "/Creative-Odyssey/static/js/787.0dba7cac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78029041.css",
+    "static/js/main.01567892.js"
+  ]
+}

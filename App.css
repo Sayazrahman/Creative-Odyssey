@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Satisfy&display=swap');
+
+body{
+  background-color: black;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  width: 76.5rem;
+  height: 6rem;
+  background-color: black;
+  display: flex;
+  position: sticky;
+  transition: background-color 0.3s, width 0.3s;
+}
+
+
+.navbar{
+  width: 76.5rem;
+  height: 6rem;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+
+.navbar ul{
+  display: flex;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul li {
+  padding: 25px;
+  height: 12vh;
+  list-style: none;
+  position: relative;
+  cursor: pointer;
+  
+
+}
+
+
+ul li:hover::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transition: transform 1s;
+  transform: scaleX(0);
+  transform-origin: left;
+  box-shadow: rgba(255, 2, 179, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  transform: scaleX(1);
+  
+}
+
+
+
+
+.container{
+  width: 100%;
+  height: 30rem;
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+.container p{
+  line-height: 1.5;
+  font-size: 2rem;
+}
+.intro{
+  margin: auto;
+  text-align: center;
+  color: wheat;
+  height: auto;
+  width: auto;
+  /* z-index: -1; */
+}
+.image-showcase{
+  outline: none;
+  border: none;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  width: 76.5rem;
+  height: 30rem;
+  background-image: url(./Components/Me.png);
+  border-end-end-radius: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 76.5rem;
+  height: 30rem;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.overlay-text {
+  font-size: 24px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.my-porfolio{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 72rem;
+  height: 105rem;
+  justify-content: space-around;
+}
+
+.card{
+  width: 27rem;
+  height: 17rem;
+  background-color: black;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: relative;
+  box-shadow: rgba(255, 2, 179, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.card img{
+  width: 27rem;
+  height: 17rem;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.card-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(5, 5, 5, 0.562);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card:hover .card-overlay {
+  opacity: 1;
+
+}
+
+.card-overlay a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #ff9900;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease-in-out;
+}
+.card-overlay a:hover {
+  background-color: #c60081;
+}
+
+.skills{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  width: 70rem;
+  height: auto;
+  padding: 2rem;
+  margin: auto;
+}
+.box{
+  width: 8rem;
+  height: 8rem;
+  border: 3px solid rgb(10, 228, 192);
+  box-shadow: rgb(228, 150, 5) 0px 10px 20px -10px;
+  border-radius: 300px;
+  /* padding: 2rem; */
+  text-align: center;
+  
+}
+.box:hover{
+  box-shadow: rgb(255, 4, 4) 0px 10px 20px -10px;
+}
+.box img{
+  width: 7rem;
+  height: 8rem;
+  object-fit: contain;
+  border-radius: 300px;
+  text-align: center;
+}
+.html-logo{
+  background-color: rgb(255, 107, 8);
+}
+.css-logo{
+  background-color: rgb(3, 153, 212);
+  
+}
+.js-logo{
+  background-color: rgb(199, 188, 36);
+  
+}
+.js-logo img{
+width: 7rem;
+height: 7rem;
+margin: auto;
+object-fit: cover;
+margin-top: 5px;
+}
+.bs-logo img{
+width: 7rem;
+height: 7rem;
+margin-top: 5px;
+}
+.bs-logo{
+  background-color: rgb(132, 39, 255);
+}
+.react-logo img{
+  width: 7rem;
+  height: 7rem;
+  margin-top: 5px;
+}
+.react-logo{
+  background-color: rgb(43, 42, 42);
+}
+.respo-logo img{
+  width: 6rem;
+  height: 8rem;
+}
+.respo-logo{
+  background-color: #ff436b;
+}
+
+.about{
+  width: 70rem;
+  height: 40rem;
+  margin: auto;
+  /* background-color: #c60081; */
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.photo-showcase{
+  border-end-end-radius: 300px;
+  background-image: url(./Components/Aboutme.png);
+  width: 30rem;
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.description{
+  width: 30rem;
+  height: 30rem;
+  color: white;
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.description h1{
+  color: #ff9204;
+  font-family: 'Dancing Script', cursive;
+}
+.description p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+.cv-button{
+  width: 10rem;
+  padding: 5px;
+  border: 2px solid rgb(187, 185, 185);
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+}
+.cv-button a{
+  color: white;
+  text-decoration: none;
+}
+.cv-button:hover{
+  border-color: white
+}
+.contact-me{
+  display: flex;
+  justify-content: space-around;
+  width: 70rem;
+  height: 30rem;
+  margin: auto;
+}
+
+.form-enquiry{
+  width: auto;
+  height: auto;
+  
+}
+.form-enquiry input{
+  width: 15rem;
+  height: 2rem;
+  font-size: 13px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  border: none;
+  background: none;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+.form-control{
+  border: none;
+  background: black;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.address-info{
+  width: 20rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+}
+@media (min-width: 1000px){
+  .contact-me{
+    width: 100%;
+  }
+.about{
+  width: 100%;
+}
+}
+.footer{
+  width: 76.5rem;
+  height: 15rem;
+  background-color: rgb(17, 17, 17);
+  text-align: center;
+}
+@media (min-width:1000px){
+  .footer{
+    width: 100%;
+  }
+}
+.social-connection{
+  display: flex;
+  justify-content: space-evenly;
+  color: #ffffff;
+}
+.social-connection a{
+  color: white;
+}
+
